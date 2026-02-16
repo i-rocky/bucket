@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "description": "uuidgen for Windows with Linux/macOS-compatible flags.",
+  "homepage": "https://github.com/i-rocky/uuid",
+  "license": "MIT",
+  "url": "https://github.com/i-rocky/uuid/releases/download/v0.1.0/uuid-windows-x86_64-v0.1.0.zip",
+  "hash": "a6e3339a2c4d23a0dcdc598964c690aff195e91c8f18b77f9e06ef07c84e0695",
+  "bin": "uuidgen.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/i-rocky/uuid/releases/download/v$version/uuid-windows-x86_64-v$version.zip",
+    "hash": {
+      "url": "https://github.com/i-rocky/uuid/releases/download/v$version/SHA256SUMS.txt",
+      "regex": "$sha256\\s+uuid-windows-x86_64-v$version\\.zip"
+    }
+  }
+}
