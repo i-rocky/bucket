@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "description": "GNU watch for Windows that feels like Linux/macOS.",
+  "homepage": "https://github.com/i-rocky/watch",
+  "license": "MIT",
+  "url": "https://github.com/i-rocky/watch/releases/download/v0.1.0/watch-x86_64-pc-windows-msvc.zip",
+  "hash": "tbd",
+  "bin": "watch.exe",
+  "checkver": {
+    "github": "i-rocky/watch"
+  },
+  "autoupdate": {
+    "url": "https://github.com/i-rocky/watch/releases/download/v$version/watch-x86_64-pc-windows-msvc.zip",
+    "hash": {
+      "url": "https://github.com/i-rocky/watch/releases/download/v$version/SHA256SUMS.txt",
+      "regex": "$sha256\\s+watch-x86_64-pc-windows-msvc\\.zip"
+    }
+  }
+}
