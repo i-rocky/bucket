@@ -8,8 +8,8 @@ scoop bucket add rocky https://github.com/i-rocky/bucket
 ```
 
 ## Apps
-- [`watch`](https://github.com/i-rocky/watch)
-- [`nim`](https://github.com/oyro-os/nim)
+- [`watch`](https://github.com/i-rocky/watch) — GNU watch for Windows that feels like Linux/macOS.
+- [`nim`](https://github.com/oyro-os/nim) — CLI tool.
 
 ## Auto-update
 This bucket includes a GitHub Actions workflow that runs `checkver.ps1` to
