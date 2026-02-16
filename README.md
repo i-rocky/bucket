@@ -9,7 +9,7 @@ scoop bucket add rocky https://github.com/i-rocky/scoop-bucket
 
 ## Apps
 - [`watch`](https://github.com/i-rocky/watch) — GNU watch for Windows that feels like Linux/macOS.
-- [`nim`](https://github.com/oyro-os/nim) — Cross-platform CLI for image manipulation (resize, crop, pad, convert).
+- [`pixr`](https://github.com/oyro-os/nim) — Cross-platform CLI for image manipulation (resize, crop, pad, convert).
 - [`dockerx`](https://github.com/i-rocky/dockerx) — Hardened Docker dev environment launcher.
 - [`docker-win-net-connect`](https://github.com/i-rocky/docker-win-net-connect) — WireGuard tunnel between Windows host and Docker Desktop VM for subnet access.
 
