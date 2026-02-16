@@ -6,9 +6,7 @@
   "url": "https://github.com/i-rocky/watch/releases/download/v0.1.0/watch-x86_64-pc-windows-msvc.zip",
   "hash": "tbd",
   "bin": "watch.exe",
-  "checkver": {
-    "github": "i-rocky/watch"
-  },
+  "checkver": "github",
   "autoupdate": {
     "url": "https://github.com/i-rocky/watch/releases/download/v$version/watch-x86_64-pc-windows-msvc.zip",
     "hash": {
