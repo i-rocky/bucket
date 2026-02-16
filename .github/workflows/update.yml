@@ -1,0 +1,36 @@
+name: Update manifests
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [checkver]
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  checkver:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Update manifests
+        shell: pwsh
+        env:
+          SCOOP_GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone --depth 1 https://github.com/ScoopInstaller/Scoop.git scoop
+          .\scoop\bin\checkver.ps1 * -Dir bucket -Update -ForceUpdate
+          if (git status --porcelain) {
+            git add bucket
+            git commit -m "Update manifests"
+            git push
+          }
