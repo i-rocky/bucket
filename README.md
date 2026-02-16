@@ -9,6 +9,7 @@ scoop bucket add rocky https://github.com/i-rocky/bucket
 
 ## Apps
 - `watch`
+- `nim`
 
 ## Auto-update
 This bucket includes a GitHub Actions workflow that runs `checkver.ps1` to

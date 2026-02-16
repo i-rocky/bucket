@@ -1,0 +1,17 @@
+{
+  "version": "1.0.9",
+  "description": "nim CLI tool.",
+  "homepage": "https://github.com/oyro-os/nim",
+  "license": "MIT",
+  "url": "https://github.com/oyro-os/nim/releases/download/v1.0.9/nim-windows-x86_64-v1.0.9.zip",
+  "hash": "11ff8973f865486bc4e1c67028c31c065a221e6e5d1d49d83c1124b15126ec60",
+  "bin": "nim.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/oyro-os/nim/releases/download/v$version/nim-windows-x86_64-v$version.zip",
+    "hash": {
+      "url": "https://github.com/oyro-os/nim/releases/download/v$version/SHA256SUMS.txt",
+      "regex": "$sha256\\s+nim-windows-x86_64-v$version\\.zip"
+    }
+  }
+}
