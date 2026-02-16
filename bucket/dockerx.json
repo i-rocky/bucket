@@ -1,17 +1,17 @@
 {
-  "version": "0.1.0",
-  "description": "Hardened Docker dev environment launcher.",
-  "homepage": "https://github.com/i-rocky/dockerx",
-  "license": "MIT",
-  "url": "https://github.com/i-rocky/dockerx/releases/download/v0.1.0/dockerx-windows-x86_64-v0.1.0.zip",
-  "hash": "2a653aaad23e64e4b49abcb0c91b76ad9c0cbfcc0566510d622aa13068c84b33",
-  "bin": "dockerx.exe",
-  "checkver": "github",
-  "autoupdate": {
-    "url": "https://github.com/i-rocky/dockerx/releases/download/v$version/dockerx-windows-x86_64-v$version.zip",
-    "hash": {
-      "url": "https://github.com/i-rocky/dockerx/releases/download/v$version/SHA256SUMS.txt",
-      "regex": "$sha256\\s+dockerx-windows-x86_64-v$version\\.zip"
+    "version": "0.1.0",
+    "description": "Hardened Docker dev environment launcher.",
+    "homepage": "https://github.com/i-rocky/dockerx",
+    "license": "MIT",
+    "url": "https://github.com/i-rocky/dockerx/releases/download/v0.1.0/dockerx-windows-x86_64-v0.1.0.zip",
+    "hash": "2a653aaad23e64e4b49abcb0c91b76ad9c0cbfcc0566510d622aa13068c84b33",
+    "bin": "dockerx.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/i-rocky/dockerx/releases/download/v$version/dockerx-windows-x86_64-v$version.zip",
+        "hash": {
+            "url": "https://github.com/i-rocky/dockerx/releases/download/v$version/SHA256SUMS.txt",
+            "regex": "$sha256\\s+dockerx-windows-x86_64-v$version\\.zip"
+        }
     }
-  }
 }
