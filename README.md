@@ -9,6 +9,7 @@ scoop bucket add rocky https://github.com/i-rocky/scoop-bucket
 
 ## Apps
 - [`watch`](https://github.com/i-rocky/watch) — GNU watch for Windows that feels like Linux/macOS.
+- [`lsof`](https://github.com/i-rocky/lsof) — lsof-style socket and process inspection for Windows.
 - [`uuidgen`](https://github.com/i-rocky/uuid) — UUID generator for Windows with Linux/macOS-compatible flags.
 - [`pixr`](https://github.com/i-rocky/pixr) — Cross-platform CLI for image manipulation (resize, crop, pad, convert).
 - [`dockerx`](https://github.com/i-rocky/dockerx) — Hardened Docker dev environment launcher.
