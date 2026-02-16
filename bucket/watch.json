@@ -12,8 +12,7 @@
   "autoupdate": {
     "url": "https://github.com/i-rocky/watch/releases/download/v$version/watch-x86_64-pc-windows-msvc.zip",
     "hash": {
-      "url": "https://github.com/i-rocky/watch/releases/download/v$version/SHA256SUMS.txt",
-      "regex": "$sha256\\s+watch-x86_64-pc-windows-msvc\\.zip"
+      "mode": "download"
     }
   }
 }
