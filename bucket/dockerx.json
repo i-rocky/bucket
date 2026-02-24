@@ -1,10 +1,10 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Hardened Docker dev environment launcher.",
     "homepage": "https://github.com/i-rocky/dockerx",
     "license": "MIT",
-    "url": "https://github.com/i-rocky/dockerx/releases/download/v0.1.1/dockerx-windows-x86_64-v0.1.1.zip",
-    "hash": "ef24e2741cd2368066714dc144cf0b934552fa3e66045917631bfd67b01d26a0",
+    "url": "https://github.com/i-rocky/dockerx/releases/download/v0.1.2/dockerx-windows-x86_64-v0.1.2.zip",
+    "hash": "a8e2316e2cfa9d01815723433dd94184a24360ef7506599bb5ad6921b67cd0ab",
     "bin": "dockerx.exe",
     "checkver": "github",
     "autoupdate": {
